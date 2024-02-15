@@ -6,12 +6,11 @@
       <File FileName="Assets/Scripts/PlayerMovement.cs" />
       <File FileName="Assets/Scripts/CameraMovement.cs" />
       <File FileName="Assets/Scripts/EndLevel.cs" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
       <File FileName="Assets/Scripts/Credits.cs" />
-      <File FileName="Assets/Scripts/LoadLevel.cs" Line="11" Column="76" />
+      <File FileName="Assets/Scripts/LoadLevel.cs" />
       <File FileName="Assets/Scripts/NextLevel.cs" />
       <File FileName="Assets/Scripts/Load_Levels.cs" Line="12" Column="35" />
-      <File FileName="Assets/Back.cs" Line="10" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="81f10c3c-840f-4a8e-b973-672a2f40ccc1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7dbafe22-a57e-4a0c-a5fe-aa97d0a07cb7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
