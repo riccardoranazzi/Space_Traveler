@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 745128611}
   - component: {fileID: 745128610}
   m_Layer: 0
-  m_Name: LoadTutorial
+  m_Name: NextLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -618,6 +618,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0c3d0e8e1b4b408398cd787ad9442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TutorialScene: 3
+  MarsScene: 4
+  MoonScene: 5
+  JupiterScene: 0
+  DarkMoonScene: 0
+  ButtonUI: {fileID: 1969896880}
 --- !u!4 &745128611
 Transform:
   m_ObjectHideFlags: 0
@@ -626,7 +632,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745128609}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 414, y: 896, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1731,8 +1737,8 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 745128611}
   - {fileID: 1441528973}
   - {fileID: 1100357581}
   - {fileID: 1821907268}
   - {fileID: 1320912275}
-  - {fileID: 745128611}

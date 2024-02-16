@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_Choose.unity
     guid: 391f55963382d48309540b06d82167ff
   - enabled: 1
+    path: Assets/Scenes/Presentation.unity
+    guid: 2ef96051159044291b85be463ec6b4ab
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 485a9f561a5be4c7aa64b71d76e48caa
   - enabled: 1
-    path: Assets/Scenes/Level01.unity
+    path: Assets/Scenes/Mars01.unity
     guid: bc37888113d2549beb2dcba4818f5142
   - enabled: 1
-    path: Assets/Scenes/Level02.unity
-    guid: feeaec82988ff47c6b934a67fc31d1ca
+    path: Assets/Scenes/Moon02.unity
+    guid: a12139ffc856f487c942e2e05a320ab5
   - enabled: 1
     path: Assets/Scenes/CREDITS.unity
     guid: 6034254503cdd42e28e0a82e34039f82
