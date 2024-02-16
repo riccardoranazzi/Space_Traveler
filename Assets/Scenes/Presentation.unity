@@ -589,56 +589,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656829368}
   m_CullTransparentMesh: 1
---- !u!1 &745128609
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 745128611}
-  - component: {fileID: 745128610}
-  m_Layer: 0
-  m_Name: NextLevel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &745128610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745128609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29a0c3d0e8e1b4b408398cd787ad9442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TutorialScene: 3
-  MarsScene: 4
-  MoonScene: 5
-  JupiterScene: 0
-  DarkMoonScene: 0
-  ButtonUI: {fileID: 1969896880}
---- !u!4 &745128611
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745128609}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 414, y: 896, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &774689015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,6 +1497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1826999221}
   - component: {fileID: 1826999222}
+  - component: {fileID: 1826999223}
   m_Layer: 5
   m_Name: Texts
   m_TagString: Untagged
@@ -1600,6 +1551,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1826999223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826999220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a0c3d0e8e1b4b408398cd787ad9442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TutorialScene: 3
+  MarsScene: 4
+  MoonScene: 5
+  JupiterScene: 0
+  DarkMoonScene: 0
+  ButtonUI: {fileID: 1969896880}
 --- !u!1 &1969896880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,7 +1587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1969896881
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1683,7 +1652,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 745128610}
+      - m_Target: {fileID: 1826999223}
         m_TargetAssemblyTypeName: Load_Levels, Assembly-CSharp
         m_MethodName: Load_Tutorial
         m_Mode: 1
@@ -1737,7 +1706,6 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 745128611}
   - {fileID: 1441528973}
   - {fileID: 1100357581}
   - {fileID: 1821907268}

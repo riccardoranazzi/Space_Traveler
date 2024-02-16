@@ -8,16 +8,18 @@
       <File FileName="Assets/Scripts/EndLevel.cs" />
       <File FileName="Assets/Scripts/GameManager.cs" Line="19" Column="1" />
       <File FileName="Assets/Scripts/Credits.cs" />
-      <File FileName="Assets/Scripts/LoadLevel.cs" />
+      <File FileName="Assets/Scripts/LoadLevel.cs" Line="20" Column="1" />
       <File FileName="Assets/Scripts/NextLevel.cs" />
-      <File FileName="Assets/Scripts/Load_Levels.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/Load_Levels.cs" Line="18" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Space Journey" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Load_Levels.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
