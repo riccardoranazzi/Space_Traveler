@@ -832,6 +832,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0c3d0e8e1b4b408398cd787ad9442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TutorialScene: 3
+  MarsScene: 4
+  MoonScene: 5
+  JupiterScene: 0
+  DarkMoonScene: 0
+  ButtonUI: {fileID: 0}
 --- !u!1 &832278592
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +967,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 0.33962262, g: 0.14257741, b: 0.14257741, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
