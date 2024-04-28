@@ -1,23 +1,26 @@
 ﻿<Properties StartupConfiguration="{955EFABE-F88F-DED7-DE39-9B4AF54E1ED5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EndLevel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerCollision.cs">
     <Files>
       <File FileName="Assets/Scripts/RocketMovement.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/PlayerCollision.cs" />
+      <File FileName="Assets/Scripts/PlayerCollision.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerMovement.cs" />
       <File FileName="Assets/Scripts/CameraMovement.cs" />
       <File FileName="Assets/Scripts/EndLevel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="19" Column="1" />
       <File FileName="Assets/Scripts/Credits.cs" />
       <File FileName="Assets/Scripts/LoadLevel.cs" />
       <File FileName="Assets/Scripts/NextLevel.cs" />
-      <File FileName="Assets/Scripts/Load_Levels.cs" Line="18" Column="31" />
+      <File FileName="Assets/Scripts/Load_Levels.cs" />
+      <File FileName="Assets/Scripts/Back.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Space Journey" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PlayerCollision.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -26,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="65e0a263-ab62-4cb2-8fd1-a61e014b01e7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cf6e02d2-9e7b-457f-9601-9bfa49208c8d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

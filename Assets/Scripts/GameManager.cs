@@ -15,6 +15,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject Pause;
 
+    public GameObject AudioExplosion;
+
+    public GameObject MusicAudio;
+
     public int MenuIndex = 1;
 
 
@@ -32,8 +36,11 @@ public class GameManager : MonoBehaviour
             Debug.Log("Game Over!");
             GameEnded = true;
             gameOverUI.SetActive(true);
+            AudioExplosion.SetActive(true);
+            MusicAudio.SetActive(false);
 
-        }
+
+        } 
 
     }
 
@@ -41,6 +48,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0;
         PauseButtons.SetActive(true);
+        MusicAudio.SetActive(false);
 
     }
 
@@ -53,11 +61,13 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         PauseButtons.SetActive(false);
+        MusicAudio.SetActive(true);
     }
 
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        MusicAudio.SetActive(true);
     }
 
     public void ReturnToMenu()
