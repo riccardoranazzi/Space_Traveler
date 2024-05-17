@@ -12,10 +12,10 @@ public class LoadLevel : MonoBehaviour
 
     }
 
-    public void LoadNextLevel()
+    public void LoadChooseLevel()
 
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
     }
 
 

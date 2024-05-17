@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Load_Levels : MonoBehaviour
 {
+    public int ChooseLevel = 1;
+
     public int TutorialScene = 3;
 
     public int MarsScene = 4;
@@ -50,6 +52,12 @@ public class Load_Levels : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(6);
+    }
+
+    public void Load_ChooseLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(ChooseLevel);
     }
 
 }
