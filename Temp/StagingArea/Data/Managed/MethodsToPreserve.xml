@@ -1,0 +1,61 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Back">
+			<method name="GetBack"/>
+		</type>
+		<type fullname="Credits">
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="GameManager">
+			<method name="PauseGame"/>
+			<method name="PauseGame"/>
+			<method name="PauseGame"/>
+			<method name="PauseGame"/>
+			<method name="PauseGame"/>
+			<method name="QuitGame"/>
+			<method name="QuitGame"/>
+			<method name="QuitGame"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+			<method name="ReturnToMenu"/>
+			<method name="ReturnToMenu"/>
+			<method name="ReturnToMenu"/>
+			<method name="ReturnToMenu"/>
+		</type>
+		<type fullname="Load_Levels">
+			<method name="Load_Mars"/>
+			<method name="Load_Moon"/>
+			<method name="Load_Moon"/>
+			<method name="Load_Moon"/>
+			<method name="Load_Tutorial"/>
+		</type>
+		<type fullname="LoadLevel">
+			<method name="LoadChooseLevel"/>
+			<method name="LoadLevel1"/>
+		</type>
+		<type fullname="PlayerMovement">
+			<method name="PointerDownLeft"/>
+			<method name="PointerDownLeft"/>
+			<method name="PointerDownLeft"/>
+			<method name="PointerDownLeft"/>
+			<method name="PointerDownRight"/>
+			<method name="PointerDownRight"/>
+			<method name="PointerDownRight"/>
+			<method name="PointerDownRight"/>
+			<method name="PointerUpLeft"/>
+			<method name="PointerUpLeft"/>
+			<method name="PointerUpLeft"/>
+			<method name="PointerUpLeft"/>
+			<method name="PointerUpRight"/>
+			<method name="PointerUpRight"/>
+			<method name="PointerUpRight"/>
+			<method name="PointerUpRight"/>
+		</type>
+	</assembly>
+</linker>

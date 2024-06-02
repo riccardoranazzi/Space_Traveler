@@ -17,7 +17,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject AudioExplosion;
 
-    public GameObject MusicAudio;
+    public AudioSource MusicAudio;
+
+    public AudioSource SuccessAudio;
 
     public int MenuIndex = 1;
 
@@ -26,6 +28,9 @@ public class GameManager : MonoBehaviour
     {
         completeLevelUI.SetActive(true);
         Pause.SetActive(false);
+        MusicAudio.Stop();
+        SuccessAudio.Play();
+
     }
 
     public void EndGame()
@@ -37,8 +42,7 @@ public class GameManager : MonoBehaviour
             GameEnded = true;
             gameOverUI.SetActive(true);
             AudioExplosion.SetActive(true);
-            MusicAudio.SetActive(false);
-
+            MusicAudio.Stop();
 
         } 
 
@@ -48,8 +52,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0;
         PauseButtons.SetActive(true);
-        MusicAudio.SetActive(false);
-
+        MusicAudio.Pause();
     }
 
     public void QuitGame()
@@ -61,13 +64,13 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         PauseButtons.SetActive(false);
-        MusicAudio.SetActive(true);
+        MusicAudio.UnPause();
     }
 
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        MusicAudio.SetActive(true);
+        MusicAudio.Play();
     }
 
     public void ReturnToMenu()

@@ -890,9 +890,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'WHat NO?!
+  m_Text: 'Well let''s make a
 
-    a pilot with your experience??'
+    quick recap'
 --- !u!222 &977470756
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1563,6 +1563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0c3d0e8e1b4b408398cd787ad9442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChooseLevel: 1
   TutorialScene: 3
   MarsScene: 4
   MoonScene: 5
