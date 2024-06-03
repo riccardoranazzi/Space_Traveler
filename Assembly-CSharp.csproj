@@ -73,6 +73,7 @@
     <Compile Include="Assets/Scripts/Rocket_buttons.cs" />
     <Compile Include="Assets/Scripts/EndLevel.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/MeteorMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

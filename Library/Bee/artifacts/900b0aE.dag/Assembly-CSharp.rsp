@@ -361,6 +361,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LoadLevel.cs"
 "Assets/Scripts/Load_Levels.cs"
+"Assets/Scripts/MeteorMovement.cs"
 "Assets/Scripts/NextLevel.cs"
 "Assets/Scripts/PlayerCollision.cs"
 "Assets/Scripts/PlayerMovement.cs"
