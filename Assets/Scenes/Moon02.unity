@@ -3745,7 +3745,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: let's go to the  next planet
+  m_Text: let's go to Jupiter
 --- !u!222 &887529255
 CanvasRenderer:
   m_ObjectHideFlags: 0
