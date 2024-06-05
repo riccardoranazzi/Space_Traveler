@@ -13,7 +13,7 @@ public class Load_Levels : MonoBehaviour
 
     public int MoonScene = 5;
 
-    public int JupiterScene = 0;
+    public int JupiterScene = 6;
 
     public int DarkMoonScene = 0;
 
@@ -45,13 +45,7 @@ public class Load_Levels : MonoBehaviour
     public void Load_Jupiter()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(5);
-    }
-
-    public void Load_Dark_Moon()
-    {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(JupiterScene);
     }
 
     public void Load_ChooseLevel()

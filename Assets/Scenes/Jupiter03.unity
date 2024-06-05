@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.735849, g: 0.28042945, b: 0.14231041, a: 1}
+  m_FogColor: {r: 0.7924528, g: 0.43503892, b: 0.3252047, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 0
@@ -1784,7 +1784,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.8773585, g: 0.8067865, b: 0.76561946, a: 1}
+  m_Color: {r: 0.754717, g: 0.37060708, b: 0.03203986, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -3207,7 +3207,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.039248843, g: 0.042882286, b: 0.16981131, a: 1}
+  m_BackGroundColor: {r: 0.6320754, g: 0.3744556, b: 0.25938946, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -6465,7 +6465,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9dbf662d51ec54e4084ba552e1604c40, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -7579,7 +7579,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 55837f09df9b44d42a5d2f2a8e0a70e1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e49add48dabd54deea22975402c5b7ef, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
