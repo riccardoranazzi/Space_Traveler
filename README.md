@@ -1,20 +1,16 @@
 SPACE TRAVELER
 
-Descrizione:
-Preparati a esplorare l'universo in Space Traveler, il nuovo videogioco per smartphone che ti porterà in un'avventura interstellare senza precedenti! In questo gioco prenderai il comando di una nave spaziale avanzata, viaggiando attraverso galassie lontane, ed esplorando i pianeti del nostro sistema solare.
+Description: Get ready to explore the universe in Space Traveler, the new smartphone video game that will take you on an unprecedented interstellar adventure! In this game you will take command of an advanced spaceship, traveling through distant galaxies, and exploring the planets of our solar system.
 
-Caratteristiche principali:
+Main features:
 
-Missioni Spaziali Epiche: Completa missioni avvincenti in diversi sistemi solari.
-Esplorazione di Pianeti: Scopri e esplora pianeti sconosciuti, ognuno con la sua unica storia e pericoli.
+Epic Space Missions: Complete challenging missions across multiple solar systems. Planet Exploration: Discover and explore unknown planets, each with its own unique history and dangers.
 
-Livelli di Gioco:
-Space Traveler offre diversi livelli di difficoltà e sfide crescenti. Dovrai navigare attraverso campi di asteroidi, e prendere decisioni cruciali che influenzeranno il destino della tua missione.
+Game Levels: Space Traveler offers different levels of difficulty and increasing challenges. You will have to navigate through asteroid fields, and make crucial decisions that will affect the fate of your mission.
 
-Unisciti all'Odissea Galattica:
-Sei pronto a scoprire i segreti dell'universo? Scarica Galactic Odyssey ora e inizia il tuo viaggio tra le stelle!
+Join the Galactic Odyssey: Are you ready to discover the secrets of the universe? Download Galactic Odyssey now and begin your journey among the stars!
 
-Disponibile su:
+Available on:
 
 iOS
 Android
